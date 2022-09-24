@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "d2s",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Discord 2 Server",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "NiceygyLive"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.nicey.d2s.Discord2Server"
+    ],
+    "client": [
+      "com.nicey.d2s.Discord2ServerClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "d2s.mixins.json"
   ],
 
   "depends": {
