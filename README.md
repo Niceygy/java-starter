@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Discord2Server
 
-## Setup
+## This is still in progress!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This is a discordSRV alternative for fabric
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIT
