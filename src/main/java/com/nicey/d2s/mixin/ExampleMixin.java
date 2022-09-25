@@ -11,10 +11,13 @@ import static net.minecraft.server.command.CommandManager.*;
 
 
 
+
+
 @Mixin(TitleScreen.class)
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
 		Discord2Server.LOGGER.info("Mod loading... Please stand by.");
 	}
+
 }
