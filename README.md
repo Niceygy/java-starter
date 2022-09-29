@@ -1,9 +1,4 @@
-# Discord2Server
+# 3RD life mod
 
-## This is still in progress!
-
-This is a discordSRV alternative for fabric
-
-## License
-
-MIT
+For PinaCraft
+:D
